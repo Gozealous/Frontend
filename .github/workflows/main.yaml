@@ -13,6 +13,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the github action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: reactzealous
+          heroku_app_name: gozealous-frontend
           heroku_email: diverseusage@gmail.com
           usedocker: true
